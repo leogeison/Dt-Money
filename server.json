@@ -1,20 +1,52 @@
 {
   "transactions": [
     {
-      "id": 1,
+      "id": "1",
       "description": "Desenvolvimento de site",
       "type": "income",
       "category": "Venda",
-      "price": "12000",
+      "price": 14000,
       "createdAt": "2022-07-19T18:32:00"
     },
     {
-      "id": 2,
+      "id": "2",
       "description": "Hamburguer",
       "type": "outcome",
       "category": "Alimentação",
-      "price": "60",
+      "price": 80,
       "createdAt": "2022-07-19T15:02:00"
+    },
+    {
+      "id": "3",
+      "description": "Livro Programação",
+      "type": "outcome",
+      "category": "Educação",
+      "price": 10,
+      "createdAt": "2022-07-19T15:02:00"
+    },
+    {
+      "id": "4",
+      "description": "Teclado xps 30 Roland",
+      "price": 5450,
+      "category": "Instrumentos Musicais",
+      "type": "income",
+      "createdAt": "2024-08-01T00:49:23.273Z"
+    },
+    {
+      "id": "7492",
+      "description": "Roupas",
+      "price": 540,
+      "category": "vendas",
+      "type": "outcome",
+      "createdAt": "2024-08-01T01:02:55.545Z"
+    },
+    {
+      "id": "68b2",
+      "description": "Ração Cachorro",
+      "price": 178,
+      "category": "alimentação",
+      "type": "outcome",
+      "createdAt": "2024-08-01T01:52:16.549Z"
     }
   ]
 }
