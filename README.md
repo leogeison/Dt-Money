@@ -1,30 +1,75 @@
-# React + TypeScript + Vite
+# 💰 Dt-Money
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple financial management web application.  
+Track your balance, income, and expenses in an intuitive way.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📑 Table of Contents
+- [About](#-about)
+- [Tech Stack](#-tech-stack)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Features](#-features)
+- [Contact](#-contact)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 💡 About
+**Dt-Money** is a frontend project built with **TypeScript**, **React**, and **Vite**.  
+It simulates a personal finance app, listing transactions, showing totals, and allowing you to filter incomes and outcomes.
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## 🛠 Tech Stack
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [ESLint](https://eslint.org/)
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+```bash
+git clone https://github.com/leogeison/Dt-Money.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Navigate to the project folder:
+```bash
+cd Dt-Money
+```
+
+Install dependencies:
+```bash
+npm install
+```
+
+Run the development server:
+```bash
+npm run dev
+```
+
+---
+
+## ▶️ Usage
+After running the project, open your browser at:
+```
+http://localhost:5173
+```
+
+---
+
+## ✨ Features
+- 📊 Display financial transactions  
+- ➕ Add income and outcome transactions  
+- 🔎 Filter transactions by type  
+- 📂 Mocked persistence (fake API/json-server)  
+- 📱 Responsive layout  
+
+---
+
+## 📬 Contact
+👤 **Léo Geison**  
+🔗 [LinkedIn](https://www.linkedin.com/in/leo-geison/)  
